@@ -85,7 +85,7 @@ tasks:
   # Download ESX resources
   - action: download_github
     src: https://github.com/PegosStelios/es_extended1-1-edit
-    ref: 694cd6757802c432bd025f8251dee33760080eff
+    #ref: 694cd6757802c432bd025f8251dee33760080eff
     dest: ./resources/[esx]/es_extended
 
   - action: download_github
