@@ -92,7 +92,7 @@ CREATE TABLE IF NOT EXISTS `twitter_likes` (
   CONSTRAINT `FK_twitter_likes_twitter_tweets` FOREIGN KEY (`tweetId`) REFERENCES `twitter_tweets` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=137 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
-INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES ('phone', 'Phone', 1, 0, 1);
+INSERT INTO `items` (`name`, `label`, `limit`, `rare`, `can_remove`) VALUES ('phone', 'Phone', 1, 0, 1);
 
 -- Les données exportées n'étaient pas sélectionnées.
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
