@@ -1,6 +1,6 @@
 $engine: 3
-name: PlumeESX
-version: 2.2.0
+name: ClassicESX
+version: 1.0
 author: Pegos | OG Authors = Tabarra & Chip
 description: A full base for FiveM Roleplay servers that uses es_extended 1.1 build. To add this is an edited fork of PlumeESX. 
 
@@ -32,7 +32,7 @@ tasks:
 
   - action: connect_database
   - action: query_database
-    file: ./tmp/classic_esx/plume.sql
+    file: ./tmp/classic_esx/classic-esx.sql
   - action: query_database
     file: ./tmp/classic_esx/gcphone.sql
 
