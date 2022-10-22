@@ -14,7 +14,7 @@ tasks:
   
   # Download and prepare server.cfg / loadingscreen / database
   - action: download_github
-    src: https://github.com/PegosStelios/fivem-recipe
+    src: https://github.com/wilroboly/fivem-recipe
     ref: main
     dest: ./tmp/classic_esx
 
@@ -84,7 +84,7 @@ tasks:
 
   # Download ESX resources
   - action: download_github
-    src: https://github.com/PegosStelios/es_extended1-1-edit
+    src: https://github.com/ESX-Official/es_extended
     #ref: 694cd6757802c432bd025f8251dee33760080eff
     dest: ./resources/[esx]/es_extended
 
@@ -223,6 +223,11 @@ tasks:
     ref: ee9c916ebf955abefa3bfdbd20a773122b865a22
     dest: ./resources/[esx]/esx_holdup
 
+  - action: download_github
+    src:  https://github.com/esx-framework/esx-zombie
+    ref: eefded9c4775d22b5c9829d5438ee3d4977eb5a6
+    dest: ./resources/[esx]/esx_zombie
+    
   ## GCPhone stuff
   - action: download_file
     url: https://github.com/Re-Ignited-Development/Re-Ignited-Phone/releases/download/V1.5/resources-1.2.zip
